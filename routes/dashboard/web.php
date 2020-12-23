@@ -37,7 +37,6 @@ use Illuminate\Support\Facades\Route;
 
 // });
 
-
 //user routes
 Route::resource('employees', 'EmployeeController');
 

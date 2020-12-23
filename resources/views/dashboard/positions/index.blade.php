@@ -32,7 +32,7 @@
 
                             <div class="col-md-4">
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> Search</button>
-                                    <a href="{{ route('positions.create') }}" class="btn btn-primary"><i class="fa fa-user-plus"></i> Add</a>
+                                    <a href="{{ route('positions.create') }}" class="btn btn-primary"><i class="fa fa-plus"></i> Add</a>
                             </div>
 
                         </div>

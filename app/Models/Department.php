@@ -13,4 +13,10 @@ class Department extends Model
         return $this->hasMany(Position::class);
 
     }//end of positions
+
+    public function getTitleAttribute($value)
+    {
+        return ucfirst($value);
+
+    }//end of get title
 }

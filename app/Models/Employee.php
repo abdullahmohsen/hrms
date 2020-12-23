@@ -86,5 +86,7 @@ class Employee extends Authenticatable
     {
         return asset('uploads/employee_resumes/' . $this->resume);
     }//end of get avatar path
+
+    
 }
 

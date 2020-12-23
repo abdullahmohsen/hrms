@@ -18,4 +18,10 @@ class Position extends Model
         return $this->hasMany(Employee::class);
 
     }//end of employees
+
+    public function getTitleAttribute($value)
+    {
+        return ucfirst($value);
+
+    }//end of get title
 }

@@ -13,7 +13,7 @@
 @endif
 
 
-@if (session('success'))
+@if (session('error'))
 
     <script>
         new Noty({
